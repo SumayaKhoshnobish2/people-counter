@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    background-image: url("station.jpg");
+    background-size: cover;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    background-color: beige;
+    max-width: 50%;
+    margin: auto;
+    border: 3 px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+h1,h2,p{
+    color : black;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button {
+    border: 1 px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.btnCont{
+    display: block;
+    
+}
+#increment-btn {
+    background: darkblue;
+    align-items: center;
+}
+
+#save-btn {
+    background: darkgreen;
+    align-items: center;
+}
